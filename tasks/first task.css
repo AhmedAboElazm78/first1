@@ -1,0 +1,67 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  background-color: #EFEFEF;
+}
+.header{
+  text-align: center;
+  border: 1px solid #ccc;
+  margin:10px 300px 0px 300px;
+  padding: 10px;
+  background-color:blue;
+}
+.header a{
+  background-color: blue;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration:none;
+  font-size:30px;
+  color:#fff;
+  padding: 8px;
+}
+.header a:hover{
+  color:rgb(255,100,200);
+  font-weight: bold;
+  font-style:normal;
+  text-decoration:underline;
+}
+.header a:active{
+  color:#080;
+  font-style: oblique;
+  font-weight: bold;
+}
+.cc{
+  background-image: url("task_photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+
+}
+b{
+  background-color: red;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration:underline;
+  font-size:30px;
+  color:#fff;
+}
+table caption{color:#fff;font-size: 25px; font-weight:bold; background: blue}
+.h{
+background: blue;
+text-align: center;
+color:white;
+width:700px;
+height: 200px;
+padding: 10px;
+border:2px solid #DDD;
+margin-left: 400px
+}
+.h tr,td{
+  background: blue;
+}
+.footer{
+  text-align: center;
+}
